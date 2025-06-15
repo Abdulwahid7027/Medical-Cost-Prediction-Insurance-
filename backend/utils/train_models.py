@@ -8,7 +8,7 @@ from catboost import CatBoostRegressor
 import joblib
 import os
 
-df = pd.read_csv('data/insurance.csv')
+df = pd.read_csv('../data/insurance.csv')
 le_sex = LabelEncoder()
 le_smoker = LabelEncoder()
 le_region = LabelEncoder()
